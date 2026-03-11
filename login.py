@@ -8,3 +8,8 @@ def login(username, password):
 
 user = input("Enter username: ")
 pwd = input("Enter password: ")
+
+if login(user, pwd):
+    print("Login successful!")
+else:
+    print("Login failed.")
