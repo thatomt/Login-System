@@ -5,3 +5,6 @@ def login(username, password):
       if username == correct_username and password == correct_password:
         return True
       return False
+
+user = input("Enter username: ")
+pwd = input("Enter password: ")
