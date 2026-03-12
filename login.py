@@ -6,10 +6,12 @@ def login(username, password):
         return True
       return False
 
-user = input("Enter username: ")
-pwd = input("Enter password: ")
+while True: 
+  user = input("Enter username: ")
+  pwd = input("Enter password: ")
 
-if login(user, pwd):
-    print("Login successful!")
-else:
-    print("Login failed.")
+  if login(user, pwd):
+      print("Login successful!")
+      break
+  else: 
+      print("Login failed.") 
